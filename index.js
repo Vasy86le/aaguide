@@ -6,19 +6,19 @@ const mapID = [9720, 9920];						// MAP ID to input [ Normal Mode , Hard Mode ]
 const ThirdBossActions = {						// Third Boss Attack Actions
 	1188037721: {msg: 'Front, Back stun ↓'},
 	1188038721: {msg: 'Front, Back stun ↓'}, // rage
-	1188037719: {msg: 'Right Safe →'},
-	1188038719: {msg: 'Right Safe →'}, // rage
-	1188037717: {msg: '← Left Safe'},
-	1188038717: {msg: '← Left Safe'} // rage
+	1188037719: {msg: ' → → →'},
+	1188038719: {msg: ' → → →'}, // rage
+	1188037717: {msg: '← ← ← '},
+	1188038717: {msg: '← ← ← '} // rage
 };
 
 const ThirdBossActionsHM = {					// Third Boss Attack Actions Hard Mode
 	1201144921: {msg: 'Front, back stun ↓'},
 	1201145921: {msg: 'Front, back stun ↓'}, // rage
-	1201144919: {msg: 'Right Safe → , OUT safe'},
-	1201145919: {msg: 'Right Safe → , OUT safe'}, // rage
-	1201144917: {msg: '← Left Safe , IN safe'},
-	1201145917: {msg: '← Left Safe , IN safe'} // rage
+	1201144919: {msg: '→ → → , OUT safe'},
+	1201145919: {msg: '→ → → , OUT safe'}, // rage
+	1201144917: {msg: '← ← ← , IN safe'},
+	1201145917: {msg: '← ← ← , IN safe'} // rage
 };
 
 const ThirdBossTwoUp = {
