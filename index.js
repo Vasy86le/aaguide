@@ -4,28 +4,28 @@ const Command = require('command');
 const mapID = [9720, 9920];						// MAP ID to input [ Normal Mode , Hard Mode ]
 
 const ThirdBossActions = {						// Third Boss Attack Actions
-	1188037721: {msg: 'Front, Back stun ↓'},
-	1188038721: {msg: 'Front, Back stun ↓'}, // rage
-	1188037719: {msg: ' → → →'},
-	1188038719: {msg: ' → → →'}, // rage
-	1188037717: {msg: '← ← ← '},
-	1188038717: {msg: '← ← ← '} // rage
+	1188037721: {msg: 'Fata, Stun in spate ↓'},
+	1188038721: {msg: 'Fata, Stun in spate ↓'}, // rage
+	1188037719: {msg: ' >>>>> DREAPTA'},
+	1188038719: {msg: ' >>>>> DREAPTA'}, // rage
+	1188037717: {msg: '<<<<< STANGA '},
+	1188038717: {msg: '<<<<< STANGA '} // rage
 };
 
 const ThirdBossActionsHM = {					// Third Boss Attack Actions Hard Mode
-	1201144921: {msg: 'Front, back stun ↓'},
-	1201145921: {msg: 'Front, back stun ↓'}, // rage
-	1201144919: {msg: '→ → → , OUT safe'},
-	1201145919: {msg: '→ → → , OUT safe'}, // rage
-	1201144917: {msg: '← ← ← , IN safe'},
-	1201145917: {msg: '← ← ← , IN safe'} // rage
+	1201144921: {msg: 'Fata, Stun in spate ↓'},
+	1201145921: {msg: 'Fata, Stun in spate ↓'}, // rage
+	1201144919: {msg: '>>>>> DREAPTA , OUT safe'},
+	1201145919: {msg: '>>>>> DREAPTA , OUT safe'}, // rage
+	1201144917: {msg: '<<<<< STANGA , IN safe'},
+	1201145917: {msg: '<<<<< STANGA , IN safe'} // rage
 };
 
 const ThirdBossTwoUp = {
-	1188037712: {msg: 'Back stun ↓'},
-	1188038712: {msg: 'Back stun ↓'}, // rage
-	1201144912: {msg: 'Back stun ↓'}, // HM
-	1201145912: {msg: 'Back stun ↓'} // HM Rage
+	1188037712: {msg: 'STUN SPATE ↓'},
+	1188038712: {msg: 'STUN SPATE ↓'}, // rage
+	1201144912: {msg: 'STUN SPATE ↓'}, // HM
+	1201145912: {msg: 'STUN SPATE ↓'} // HM Rage
 };
 
 /*const ToTest = {						// Third Boss Attack Actions
@@ -47,12 +47,12 @@ module.exports = function antaroth_guide(dispatch) {
 		if (event.zone === mapID[0]) 
 		{								
 			insidemap = true;
-			command.message('Welcome to Antaroth - Normal Mode');
+			command.message('Bine ai venit in Antaroth - Normal Mode');
 			load();
 		} 
 		else if (event.zone === mapID[1]) {
 			insidemap = true;
-			command.message('Welcome to Antaroth - Hard Mode');
+			command.message('Bine ai venit in Antaroth - Hard Mode');
 			load();
 		} 
 		else
